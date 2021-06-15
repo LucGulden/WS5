@@ -5,6 +5,12 @@ var app = new Vue({
     data: {
         titre_article: 'Article 1',
         desc_article: 'Voici mon article 1 :)',
-        img: './assets/img/article1.jpg'
+        img: './assets/img/article1.jpg',
+        is_liked: false
+    },
+    methods: {
+        likeArticle: function (){
+            this.is_liked = !this.is_liked
+        }
     }
   })

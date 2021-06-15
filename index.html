@@ -13,6 +13,10 @@
                 <div class="article-image">
                     <img v-bind:src="img">
                 </div>
+                <div class="article-vote" >
+                    <p v-if="is_liked"><button v-on:click="likeArticle()"><img src="./assets/icons/liked.png"></button></p>
+                    <p v-else><button v-on:click="likeArticle()"><img src="./assets/icons/not_liked.png"></button></p>
+                </div>
                 <h2>{{titre_article}}</h2>
                 <p> {{desc_article}}</p>
             </div>
