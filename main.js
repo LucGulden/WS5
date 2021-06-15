@@ -1,0 +1,1 @@
+var titre_article = "Article 1"
