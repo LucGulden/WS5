@@ -1,0 +1,24 @@
+body{
+    margin: 0px !important;
+}
+
+.article {
+    position: relative;
+    background-color : #81ccaa;
+    padding: 10px;
+    border: #42b983;
+    border-radius: 3px;
+    margin-bottom: 15px;
+
+}
+
+.article-image img{
+    width: 480px;
+    height: 360px;
+    border-radius: 3px;
+
+}
+
+#app{
+    margin: 50px;
+}
